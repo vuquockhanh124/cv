@@ -61,7 +61,7 @@
 
 }
 
-.contact_title{
+.container_left_title{
     text-align: center;
     font-size: 25px;
     margin-top:20px;
@@ -69,21 +69,94 @@
    color:#F66B0E;
 }
 
+.link_modify{
+   color:white;
+   text-decoration: none;
+}
+
+.link_modify:hover{
+  opacity: 80%;
+}
+
+.education_title_mod{
+   margin-top:40px;
+}
+
 
 /* other */
 
-hr{
+.left_hr{
 
-   border-top: 1px solid red;
+   border-top: 1px solid white;
    width:  70%;
    margin-top:30px;
    margin-bottom: 30px;
 }
 
+.right_hr{
+   border-top: 1px solid darkblue;
+   width:  88%;
+   margin-top:10px;
+   margin-left: 18px;
+}
+
 .left_container_text{
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 14px;
     color:white;
     display: inline-block;
 
 }
+
+.education_text{
+   margin-left: 5px;
+   margin-bottom: 10px;
+   font-size: 18px;
+   color:white;
+}
+
+.text_italic{
+   font-style: italic;
+}
+.text_bold{
+   font-weight: bolder;
+}
+
+.extra_space{
+   margin-top:20px;
+}
+
+
+
+
+
+/* Right container */
+
+.container_right_title{
+   font-size: 30px;
+   color:#112B3C;
+   font-weight: bolder;
+   margin-left:20px;
+   margin-top:30px;
+}
+
+.table_left_txt{
+   text-align: center;
+   margin-left:50px;
+   margin-right:50px;
+}
+
+.table_title{
+   margin-left:10px;
+   margin-top:10px;
+   font-size: 20px;
+   font-weight: bolder;
+}
+
+.skill_info_text{
+   margin-left:20px;
+   margin-bottom: 5px;
+}
+
+
+
