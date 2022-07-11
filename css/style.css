@@ -1,0 +1,89 @@
+ 
+ /* Outline box */
+ body{
+    margin-top: 0;
+    background-color: aquamarine;
+ }
+
+ .container{
+    
+    width: 800px;
+    height: 1000px;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+    
+ }
+
+ .container_left{
+    width:200px;
+    height: 1000px;
+    background-color: #112B3C;
+    
+
+ }
+
+ .container_right{
+    width: 600px;
+    height: 1000px;
+    background-color: white;
+    
+}
+
+
+
+
+/* Title and text */
+
+.title{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20%;
+   color:#F66B0E;
+    
+}
+
+.title_name{
+ margin-top:20px;
+}
+
+.title_job{
+ font-style: italic;
+ margin-top: 30px;
+}
+
+.icon{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+
+}
+
+.contact_title{
+    text-align: center;
+    font-size: 25px;
+    margin-top:20px;
+    margin-bottom:20px;
+   color:#F66B0E;
+}
+
+
+/* other */
+
+hr{
+
+   border-top: 1px solid red;
+   width:  70%;
+   margin-top:30px;
+   margin-bottom: 30px;
+}
+
+.left_container_text{
+    margin-bottom: 10px;
+    font-size: 15px;
+    color:white;
+    display: inline-block;
+
+}
