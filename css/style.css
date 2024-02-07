@@ -8,7 +8,7 @@
  .container{
     
     width: 900px;
-    height: 1000px;
+    height: 1200px;
     background-color: red;
     margin: auto;
     display: flex;
@@ -19,7 +19,7 @@
 
  .container_left{
     width:200px;
-    height: 1000px;
+    height: 1200px;
     background-color: #1e4a67;
     
     
@@ -28,7 +28,7 @@
 
  .container_right{
     width: 700px;
-    height: 1000px;
+    height: 1200px;
     
     background-color: #112B3C;
 }
@@ -42,7 +42,7 @@
     text-align: center;
     font-size: 25px;
     padding-top: 20%;
-   color:#F66B0E;
+   color:white;
     
 }
 
@@ -67,7 +67,7 @@
     font-size: 25px;
     margin-top:20px;
     margin-bottom:20px;
-   color:#F66B0E;
+   color:white;
 }
 
 .link_modify{
@@ -121,6 +121,7 @@
 }
 .text_bold{
    font-weight: bolder;
+   font-size: 18px;
 }
 
 .extra_space{
@@ -138,7 +139,7 @@
    color:white;
    font-weight: bolder;
    margin-left:20px;
-   margin-top:30px;
+   margin-top:25px;
 }
 
 .table_left_txt{
@@ -157,6 +158,20 @@
 .skill_info_text{
    margin-left:20px;
    margin-bottom: 5px;
+   font-size:18px;
+}
+
+.project_text{
+   margin-left:20px;
+   margin-bottom: 5px;
+}
+
+.project_title{
+   margin-top:15px;
+   margin-bottom:5px;
+   font-weight: bold;
+   text-decoration: underline;
+   font-size:18px;
 }
 
 
@@ -167,4 +182,9 @@
 
 .text_color{
    color:white;
+}
+
+
+ul{
+   font-size: 17px;
 }
